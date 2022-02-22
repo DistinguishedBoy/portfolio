@@ -12,39 +12,46 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
 
     <section id="home">
         <div class="main">
             <h1 class="headings">I AM<br>DARSHAN<br>SELVEENTHARAN</h1>
-            <button class="btn">Contact Me</button>
+            <a href="#contact"><button class="btn">Contact Me</button></a>
         </div>
     </section>
 
     <section id="about">
         <h1 class="headings">ABOUT ME</h1>
         <div id="pic">
-            <img src="getty_481292845_77896.jpg" alt="">
+            <img src="images/getty_481292845_77896.jpg" alt="">
             <div id="intro">
                 <h2>DARSHAN SELVEENTHARAN</h2>
                 <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nam laudantium unde dolor perferendis rem,
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nam laudantium unde dolor perferendis
+                    rem,
                     quam, molestiae harum, accusantium veniam eum possimus consectetur minus. Facere nam ullam veritatis
                     accusamus necessitatibus.
-                    Maiores deleniti similique fuga nihil autem ex quos, officiis quaerat vero sunt aliquam! Fugit corrupti
+                    Maiores deleniti similique fuga nihil autem ex quos, officiis quaerat vero sunt aliquam! Fugit
+                    corrupti
                     natus magnam facere ad quae temporibus, atque autem pariatur labore odit alias sequi ratione porro!
-                    Quisquam reprehenderit nobis non placeat qui dolor ut doloribus fugiat illum? Velit rem vero eum libero
+                    Quisquam reprehenderit nobis non placeat qui dolor ut doloribus fugiat illum? Velit rem vero eum
+                    libero
                     nobis consequuntur, ab tempore a, doloribus quis ipsum id! Ratione aliquam error doloremque facere.
-                    Sunt, ut ipsa excepturi vero corporis repellat voluptatibus libero nulla tenetur nobis laborum aperiam
-                    reprehenderit illo quos laudantium amet. Nam molestias reiciendis eveniet? Harum suscipit cumque, atque
+                    Sunt, ut ipsa excepturi vero corporis repellat voluptatibus libero nulla tenetur nobis laborum
+                    aperiam
+                    reprehenderit illo quos laudantium amet. Nam molestias reiciendis eveniet? Harum suscipit cumque,
+                    atque
                     assumenda illo repellat.
                     Ipsum architecto ut, esse unde accusamus placeat quod fuga vero, facere sapiente non distinctio quos
-                    eum. Optio odio corporis, facilis ullam quo asperiores incidunt, cum dolorem eligendi accusantium velit?
+                    eum. Optio odio corporis, facilis ullam quo asperiores incidunt, cum dolorem eligendi accusantium
+                    velit?
                     Laudantium.
                 </p>
             </div>
@@ -54,13 +61,57 @@
     <section id="portfolio">
         <h1 class="headings">PORTFOLIO</h1>
         <div class="gallery">
-            <img src="img1.jpeg" alt="">
-            <img src="img2.jpeg" alt="">
-            <img src="img3.jpeg" alt="">
-            <img src="img4.jpeg" alt="">
-            <img src="img5.jpeg" alt="">
-            <img src="img6.jpeg" alt="">
+            <img src="images/img1.jpeg" alt="">
+            <img src="images/img2.jpeg" alt="">
+            <img src="images/img3.jpeg" alt="">
+            <img src="images/img4.jpeg" alt="">
+            <img src="images/img5.jpeg" alt="">
+            <img src="images/img6.jpeg" alt="">
         </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="images/backend.png" alt="">
+                <h1 class="headings">back-end Design</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum minima tempora sed neque dolor
+                    excepturi, iusto fugiat aspernatur quisquam facilis at temporibus incidunt velit eos aut animi.
+                    Voluptate, temporibus.
+                </p>
+            </div>
+            <div class="box">
+                <img src="images/web-design.png" alt="">
+
+                <h1 class="headings">Front-end Design</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum minima tempora sed neque dolor
+                    excepturi, iusto fugiat aspernatur quisquam facilis at temporibus incidunt velit eos aut animi.
+                    Voluptate, temporibus.
+                </p>
+            </div>
+            <div class="box">
+                <img src="images/ux.png" alt="">
+                <h1 class="headings">UI/UX <br> Design</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum minima tempora sed neque dolor
+                    excepturi, iusto fugiat aspernatur quisquam facilis at temporibus incidunt velit eos aut animi.
+                    Voluptate, temporibus.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
     </section>
 </body>
 
