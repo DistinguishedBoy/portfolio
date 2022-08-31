@@ -1,118 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link href="https://fonts.googleleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+    +Pro:300,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
 </head>
-
 <body>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact Me</a></li>
+    <header>
+        <button class="nav-toggle" aria-label="toggle-navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="home" class="nav__link"Home>Home</a></li>
+                <li class="nav__item"><a href="about" class="nav__link"About Me>About Me</a></li>
+                <li class="nav__item"><a href="work" class="nav__link"Work>Work</a></li>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--INTRO-->
+    <section class="intro" id="home">
+        <h1 class="section__title  section__title--intro">
+            Hi, I am <strong>Darshan Selveentharan</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-end Dev</p>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Lorem ipsum dolor sit amet.</p>
+         
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, veniam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ullam.</p>
+        </div>
+    </section>
+
+    <!--Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section subtitle"></p>
+        <div class="protfolio">
+            
+            <!--Portfolio- item 01-->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__image">
+            </a>
+
+            <!--Portfolio- item 02-->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__image">
+            </a>
+
+            <!--Portfolio- item 03-->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__image">
+            </a>
+
+            <!--Portfolio- item 04-->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__image">
+            </a>
+
+            <!--Portfolio- item 05-->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__image">
+            </a>
+
+            <!--Portfolio- item 06-->
+            <a href="#" class="portfolio__item">
+                <img src="" alt="" class="portfolio__image">
+            </a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="darshantharan@gmail.com" class="footer__link">darshantharan@gmail.com</a>
+        <ul class="social-list">
+            <li clas="social-list__item"><a class="social-list__link"
+            href="https://github.com/DistinguishedBoy/portfolio">a</a></li>
+            <li clas="social-list__item"><a class="social-list__link"
+            href="https://www.instagram.com">b</a></li>
         </ul>
-    </nav>
-
-    <section id="home">
-        <div class="main">
-            <h1 class="headings">I AM<br>DARSHAN<br>SELVEENTHARAN</h1>
-            <a href="#contact"><button class="btn">Contact Me</button></a>
-        </div>
-    </section>
-
-    <section id="about">
-        <h1 class="headings">ABOUT ME</h1>
-        <div id="pic">
-            <img src="images/getty_481292845_77896.jpg" alt="">
-            <div id="intro">
-                <h2>DARSHAN SELVEENTHARAN</h2>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nam laudantium unde dolor perferendis
-                    rem,
-                    quam, molestiae harum, accusantium veniam eum possimus consectetur minus. Facere nam ullam veritatis
-                    accusamus necessitatibus.
-                    Maiores deleniti similique fuga nihil autem ex quos, officiis quaerat vero sunt aliquam! Fugit
-                    corrupti
-                    natus magnam facere ad quae temporibus, atque autem pariatur labore odit alias sequi ratione porro!
-                    Quisquam reprehenderit nobis non placeat qui dolor ut doloribus fugiat illum? Velit rem vero eum
-                    libero
-                    nobis consequuntur, ab tempore a, doloribus quis ipsum id! Ratione aliquam error doloremque facere.
-                    Sunt, ut ipsa excepturi vero corporis repellat voluptatibus libero nulla tenetur nobis laborum
-                    aperiam
-                    reprehenderit illo quos laudantium amet. Nam molestias reiciendis eveniet? Harum suscipit cumque,
-                    atque
-                    assumenda illo repellat.
-                    Ipsum architecto ut, esse unde accusamus placeat quod fuga vero, facere sapiente non distinctio quos
-                    eum. Optio odio corporis, facilis ullam quo asperiores incidunt, cum dolorem eligendi accusantium
-                    velit?
-                    Laudantium.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <h1 class="headings">PORTFOLIO</h1>
-        <div class="gallery">
-            <img src="images/img1.jpeg" alt="">
-            <img src="images/img2.jpeg" alt="">
-            <img src="images/img3.jpeg" alt="">
-            <img src="images/img4.jpeg" alt="">
-            <img src="images/img5.jpeg" alt="">
-            <img src="images/img6.jpeg" alt="">
-        </div>
-    </section>
-
-    <section id="services">
-        <h1 class="headings">SERVICES</h1>
-        <div class="row">
-            <div class="box">
-                <img src="images/backend.png" alt="">
-                <h1 class="headings">back-end Design</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum minima tempora sed neque dolor
-                    excepturi, iusto fugiat aspernatur quisquam facilis at temporibus incidunt velit eos aut animi.
-                    Voluptate, temporibus.
-                </p>
-            </div>
-            <div class="box">
-                <img src="images/web-design.png" alt="">
-
-                <h1 class="headings">Front-end Design</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum minima tempora sed neque dolor
-                    excepturi, iusto fugiat aspernatur quisquam facilis at temporibus incidunt velit eos aut animi.
-                    Voluptate, temporibus.
-                </p>
-            </div>
-            <div class="box">
-                <img src="images/ux.png" alt="">
-                <h1 class="headings">UI/UX <br> Design</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum minima tempora sed neque dolor
-                    excepturi, iusto fugiat aspernatur quisquam facilis at temporibus incidunt velit eos aut animi.
-                    Voluptate, temporibus.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h1 class="headings">CONTACT</h1>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter Your Name">
-            <input type="email" name="email" class="input" placeholder="Enter your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-            <input type="submit" value="SEND" id="send">
-        </form>
-    </section>
+    </footer>
 </body>
 
 </html>
